@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.css">
+</head>
+<body>
+    <div class="container-lg">
+        <div class="table-responsive">
+            <div class="table-wrapper">
+                <div class="table-title">
+                    <div class="row">
+                        <div class="col-sm-8"><h2>Employée <b>Détails</b></h2></div>
+                        <div class="col-sm-4">
+                            <a href="inscription.php" target="_blank">
+                                <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Ajoutez nouveau</button>
+                        
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>NOM</th>
+                            <th>Départment</th>
+                            <th>Numero de telephone</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>Administration</td>
+                            <td>(171) 555-2222</td>
+                            <td>
+                                <a class="add" title="Add" ><i class="fas fa-edit"></i></a>
+                                <a class="edit" title="Edit">
+                                    <i class="fas fa-edit"></i></a>
+                                <a class="delete" title="Delete">
+                                    <img src='icone/delete.svg'>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>Peter Parker</td>
+                            <td>Customer Service</td>
+                            <td>(313) 555-5735</td>
+                            <td>
+                                <a class="add" title="Add" ><i class="fas fa-add"></i></a>
+                                <a class="edit" title="Edit" >
+                                    <i class="fas fa-edit"></i></a>
+                                <a class="delete" title="Delete" >
+                                    <img src='icone/delete.svg'>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fran Wilson</td>
+                            <td>Human Resources</td>
+                            <td>(503) 555-9931</td>
+                            <td>
+                                <a class="add" title="Add" ><i class="fas fa-add"></i>
+                                </a>
+                                <a class="edit" title="Edit" ><i class="fas fa-edit"></i></a>
+                                <a class="delete" title="Delete">
+                                    <img src='icone/delete.svg'>
+                                </td>
+                        </tr>      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> 
+    <script src="fontawesome-free/js/all.js"></script>
+</body>
+</html>
